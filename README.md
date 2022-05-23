@@ -14,9 +14,11 @@ Install deps
 
 Need to add repo for 22.04 to install libssl1
 
-`echo "deb http://security.ubuntu.com/ubuntu impish-security main" | sudo tee /etc/apt/sources.list.d/impish-security.list`
-`sudo apt-get update`
-`sudo apt-get install libssl1.1`
+```
+echo "deb http://security.ubuntu.com/ubuntu impish-security main" | sudo tee /etc/apt/sources.list.d/impish-security.list
+sudo apt-get update
+sudo apt-get install libssl1.1
+```
 
 Make folders
 
