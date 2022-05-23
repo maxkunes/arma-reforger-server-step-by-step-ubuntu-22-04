@@ -1,0 +1,1 @@
+./ArmaReforgerServer -gproj ./addons/data/ArmaReforger.gproj -config ./configs/Basic.json -backendlog -nothrow -profile ./profile/
