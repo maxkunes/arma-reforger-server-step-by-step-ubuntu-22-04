@@ -4,6 +4,7 @@ ssh into it
 Update stuff
 
 `sudo apt-get update`
+
 `sudo apt-get upgrade`
 
 Install deps
@@ -22,12 +23,14 @@ sudo apt-get install libssl1.1
 
 Make folders
 
-`cd /home`
-`cd ubuntu`
-`mkdir reforger`
-`cd reforger`
-`mkdir profile`
-`mkdir configs`
+```
+cd /home
+cd ubuntu
+mkdir reforger
+cd reforger
+mkdir profile
+mkdir configs
+```
 
 Install steamcmd
 
@@ -41,6 +44,7 @@ sudo apt install lib32gcc-s1 steamcmd
 Change steamcmd install directory
 
 `steamcmd`
+
 `force_install_dir /home/ubuntu/reforger/`
 
 Login as anonymous
@@ -52,6 +56,7 @@ Install Reforger Server (will take a bit)
 `app_update 1874900`
 
 Leave steamcmd
+
 `exit`
 
 Make ArmaReforgerServer executable
